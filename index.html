@@ -89,7 +89,7 @@
               <li><a>Contact Us</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl"
+          <a class="btn btn-ghost lg:text-xl"
             ><img src="images/logo2.png" alt=""
           /></a>
         </div>
@@ -113,7 +113,7 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn bg-btn-camel py-4 px-7 text-center"
+          <a class="btn bg-btn-camel lg:py-4 lg:px-7 text-center"
             >Free Consultation</a
           >
         </div>
@@ -141,7 +141,7 @@
               but the majority <br />
               have suffered alteration in some form, by injected humour.
             </p>
-            <div class="flex justify-center gap-10">
+            <div class="flex flex-col lg:justify-center gap-10">
               <input
                 type="text"
                 placeholder="Search your services"
@@ -160,7 +160,7 @@
       <!-- banner  -->
     </header>
 
-    <main class="container mx-auto">
+    <main class="items-center md:container md:mx-auto">
       <!-- practice area section -->
 
       <section class="my-24 text-center">
@@ -472,14 +472,16 @@
       <!-- FAQ -->
 
       <section class="text-center my-24">
-        <h2 class="text-[#414040] text-4xl font-eb font-extrabold">
-          Frequently Asked Any Questions
-        </h2>
-        <p class="text-[#707070] font-poppins mb-16">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have <br />
-          suffered alteration in some form, by injected humour.
-        </p>
+        <div class="pl-20">
+          <h2 class="text-[#414040] text-4xl font-eb font-extrabold">
+            Frequently Asked Any Questions
+          </h2>
+          <p class="text-[#707070] font-poppins mb-16">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have <br />
+            suffered alteration in some form, by injected humour.
+          </p>
+        </div>
 
         <div class="hero">
           <div class="hero-content flex-col lg:gap-24 lg:flex-row">
@@ -489,10 +491,15 @@
               >
                 <input type="radio" name="my-accordion-4" checked="checked" />
                 <div class="collapse-title text-xl font-medium">
-                  Click to open this one and close others
+                  Are application fee waivers available?
                 </div>
                 <div class="collapse-content">
-                  <p>hello</p>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum <br />
+                    available, but the majority have suffered alteration in some
+                    <br />
+                    form, by injected humour, .
+                  </p>
                 </div>
               </div>
               <div
@@ -500,10 +507,15 @@
               >
                 <input type="radio" name="my-accordion-4" />
                 <div class="collapse-title text-xl font-medium">
-                  Click to open this one and close others
+                  Are application fee waivers available?rs
                 </div>
                 <div class="collapse-content">
-                  <p>hello</p>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum <br />
+                    available, but the majority have suffered alteration in some
+                    <br />
+                    form, by injected humour, .
+                  </p>
                 </div>
               </div>
               <div
@@ -511,10 +523,15 @@
               >
                 <input type="radio" name="my-accordion-4" />
                 <div class="collapse-title text-xl font-medium">
-                  Click to open this one and close others
+                  Are application fee waivers available?
                 </div>
                 <div class="collapse-content">
-                  <p>hello</p>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum <br />
+                    available, but the majority have suffered alteration in some
+                    <br />
+                    form, by injected humour, .
+                  </p>
                 </div>
               </div>
               <div
@@ -522,10 +539,15 @@
               >
                 <input type="radio" name="my-accordion-4" />
                 <div class="collapse-title text-xl font-medium">
-                  Click to open this one and close others
+                  Are application fee waivers available?
                 </div>
                 <div class="collapse-content">
-                  <p>hello</p>
+                  <p>
+                    There are many variations of passages of Lorem Ipsum <br />
+                    available, but the majority have suffered alteration in some
+                    <br />
+                    form, by injected humour, .
+                  </p>
                 </div>
               </div>
             </div>
@@ -538,19 +560,23 @@
       <!-- FAQ -->
 
       <section class="text-center my-24">
-        <h1 class="font-eb font-extrabold text-4xl text-[#414040]">
-          Contact With Us
-        </h1>
-        <p class="#707070">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have <br />
-          suffered alteration in some form, by injected humour.
-        </p>
+        <div class="pl-20">
+          <h1
+            class="font-eb font-extrabold mb-3 lg:mb-5 text-4xl text-[#414040]"
+          >
+            Contact With Us
+          </h1>
+          <p class="#707070">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have <br />
+            suffered alteration in some form, by injected humour.
+          </p>
+        </div>
 
         <div>
           <div class="hero mt-6">
-            <div class="hero-content gap-9 flex-col lg:flex-row">
-              <div class="grid lg:grid-cols-2">
+            <div class="hero-content gap-14 flex-col lg:flex-row">
+              <div class="grid lg:grid-cols-2 lg:mr-12">
                 <!-- cart 1 -->
                 <div class="card w-96">
                   <figure class="px-10 pt-10">
@@ -641,24 +667,24 @@
               <div class="card w-full max-w-sm space-y-8">
                 <input
                   type="text"
-                  placeholder="Type here"
-                  class="input input-bordered w-full max-w-xs"
+                  placeholder="Your Name"
+                  class="input bg-white py-6 pl-6 text-[#707070] rounded-lg font-poppins w-full"
                 />
                 <input
                   type="text"
-                  placeholder="Type here"
-                  class="input input-bordered w-full max-w-xs"
+                  placeholder="Your Email"
+                  class="input py-6 pl-6 bg-white text-[#707070] rounded-lg w-full"
                 />
                 <input
                   type="text"
-                  placeholder="Type here"
-                  class="input input-bordered w-full max-w-xs"
+                  placeholder="Subject"
+                  class="input py-6 pl-6 bg-white text-[#707070] rounded-lg w-full"
                 />
                 <textarea
-                  placeholder="Bio"
-                  class="textarea textarea-bordered textarea-lg w-full max-w-xs"
+                  placeholder="Your Message"
+                  class="textarea py-6 pl-6 bg-white text-[#707070] rounded-lg textarea-lg w-full"
                 ></textarea>
-                <button class="btn btn-block bg-btn-camel ">block</button>
+                <button class="btn btn-block bg-btn-camel">Send Message</button>
               </div>
             </div>
           </div>
@@ -666,6 +692,52 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer bg-[#111111] p-10 md:container md:mx-auto">
+      <nav class="text-white space-y-5">
+        <img src="images/logo.png" alt="" />
+        <p>
+          There are many variations of <br />
+          passages of Lorem Ipsum <br />
+          available, but the majority have <br />
+          suffered alteration in some form, <br />
+          by injected humour, or randomised words <br />
+          which don't look even slightly believable.
+        </p>
+      </nav>
+      <nav class="text-white">
+        <h6 class="footer-title">Usefull Link</h6>
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About</a>
+        <a class="link link-hover">Cases</a>
+        <a class="link link-hover">Blog</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <nav class="text-white">
+        <h6 class="footer-title">Contact Now</h6>
+        <a class="link link-hover">555 4th 5t NW, Washington <br>
+          DC 20530, United States</a>
+        <a class="link link-hover">+88 01750 000 000 <br>
+          +88 01750 000 000</a>
+        <a class="link link-hover">info@gmail.com <br>
+          info@gmail.com</a>
+        <a class="link link-hover">Press kit</a>
+      </nav>
+      <form class="text-white">
+        <h6 class="footer-title">Newsletter</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              class="input input-bordered join-item"
+            />
+            <button class="btn btn-primary join-item">Subscribe</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>
